@@ -11,7 +11,7 @@ public class SQLProgramDatabaseExample
 {
     public static void run()
     {
-        System.out.println("---=== SQLSelectExample ===---");
+        System.out.println("---=== SQLProgramDatabaseExample ===---");
 
         try
         {   
