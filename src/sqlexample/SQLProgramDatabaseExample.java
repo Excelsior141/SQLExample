@@ -27,7 +27,7 @@ public class SQLProgramDatabaseExample
             properties.setProperty("user", "root");
             properties.setProperty("password", "");
             
-            // Prisijungiame prie lokalaus serverio ir nurodome duomenu bazes pavadinima.
+            // Prisijungiame prie lokalaus serverio.
             Connection connection = DriverManager.getConnection("jdbc:mysql://localhost", properties);
             
             // Susikuriame teiginio/uzklausos sablona.
